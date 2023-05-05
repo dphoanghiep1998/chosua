@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "609402618361",
+    "project_id": "dog-translate---nekosoft",
+    "storage_bucket": "dog-translate---nekosoft.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609402618361:android:0951e266d75c18d986fd28",
+        "android_client_info": {
+          "package_name": "com.dog.translate.prank.dog.joke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609402618361-85t3dqd4lct8ics9i7dpa99l2o605otn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dog.translate.prank.dog.joke",
+            "certificate_hash": "c439bb9ccfba67a57f4ba5a108162e139f7a6c97"
+          }
+        },
+        {
+          "client_id": "609402618361-cce7qot8so32cohnplde1fhfde3n7m0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXqjVpoVMI4nhdp9h32oG9fr1jHbkJ5pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609402618361-cce7qot8so32cohnplde1fhfde3n7m0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

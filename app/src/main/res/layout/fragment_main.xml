@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainFragment">
+
+
+    <ImageView
+        android:id="@+id/imv_title"
+        app:layout_constraintWidth_percent="0.6"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_140sdp"
+        android:src="@drawable/ic_title"
+        android:layout_marginTop="@dimen/_24sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:fontFamily="@font/app_font_700"
+        android:text="@string/select_translation_mode"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imv_title" />
+
+    <ImageView
+        android:layout_marginTop="@dimen/_24sdp"
+        android:id="@+id/btn_dog_1"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/ic_dog_1"
+        app:layout_constraintEnd_toStartOf="@id/btn_dog_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_action" />
+
+    <ImageView
+        android:id="@+id/btn_dog_2"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/ic_dog_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_dog_1"
+        app:layout_constraintTop_toTopOf="@id/btn_dog_1" />
+
+    <ImageView
+        android:layout_marginTop="@dimen/_24sdp"
+        android:id="@+id/btn_dog_record"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/ic_record"
+        app:layout_constraintEnd_toStartOf="@id/btn_dog_share"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_dog_1" />
+
+    <ImageView
+        android:id="@+id/btn_dog_share"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/ic_share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_dog_record"
+        app:layout_constraintTop_toTopOf="@id/btn_dog_record" />
+</androidx.constraintlayout.widget.ConstraintLayout>
