@@ -13,4 +13,6 @@
 
     <color name="translator_gradient_1">#BEBAE9</color>
     <color name="translator_gradient_2">#F4F3FF</color>
+
+    <color name="primary">#48F5FF</color>
 </resources>

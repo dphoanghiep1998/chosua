@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav"
-    app:startDestination="@id/mainFragment">
+    app:startDestination="@id/languageFragment">
 
     <fragment
         android:id="@+id/actionDogTypeFragment"
@@ -34,5 +34,14 @@
         <action
             android:id="@+id/action_mainFragment_to_prankRecordFragment"
             app:destination="@id/prankRecordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.neko.hiepdph.dogtranslatorlofi.ui.main.LanguageFragment"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language" >
+        <action
+            android:id="@+id/action_languageFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
     </fragment>
 </navigation>

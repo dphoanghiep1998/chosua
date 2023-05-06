@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name" translatable="false">Dog Translate</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_lovin_sdk_key" translatable="false">lBnu4FPbTxGUi8cqgwNENfRfqINTVk8B9NxC2Japp2DqKPThsIhPCF7zcC6wr9_IN8OLTcG9SR4dT4OJwQPTBf</string>
+        <string name="ads_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+<!--    <string name="ads_app_id" translatable="false">ca-app-pub-4636496778732615~1805535447</string>-->
+    <string name="facebook_app_id" translatable="false">3343011082680859</string>
+    <string name="facebook_client_token" translatable="false">8c8beb9f430a02359713c10972decac5</string>
+    <string name="adjust_token_key" translatable="false">hubbq5qekdmo</string>
+
+    <string name="loading_ads_new">Dog Translate is running, please wait.....</string>
+
     <string name="dog">DOG</string>
     <string name="select_translation_mode">Select translation mode</string>
     <string name="click_to_start_recording">Click to start recording ...</string>
@@ -18,4 +27,20 @@
     <string name="happy">Happy</string>
     <string name="tired">Tired</string>
     <string name="trusts">Trusts</string>
+    <string name="this_action_contains_ads">(This action can contain ads)</string>
+    <string name="language_up">LANGUAGE</string>
+    <string name="done">DONE</string>
+
+    <string name="ENGLISH" translatable="false">English</string>
+    <string name="JAPANESE" translatable="false">日本</string>
+    <string name="KOREAN" translatable="false">"한국인 </string>
+    <string name="FRENCH" translatable="false">Français</string>
+    <string name="ITALIA" translatable="false">Italia</string>
+    <string name="GERMAN" translatable="false">Deutsch</string>
+    <string name="VIETNAM" translatable="false">Tiếng Việt</string>
+    <string name="INDONESIA" translatable="false">Indonesia</string>
+    <string name="BRAZIL" translatable="false">Brazil</string>
+    <string name="TURKEY" translatable="false">Türkiye</string>
+    <string name="SPAIN" translatable="false">España</string>
+    <string name="INDIA" translatable="false">भारत</string>
 </resources>

@@ -11,7 +11,8 @@
         android:id="@+id/imv_title"
         app:layout_constraintWidth_percent="0.6"
         android:layout_width="0dp"
-        android:layout_height="@dimen/_140sdp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="185:149"
         android:src="@drawable/ic_title"
         android:layout_marginTop="@dimen/_24sdp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,6 +34,7 @@
 
     <ImageView
         android:layout_marginTop="@dimen/_24sdp"
+        android:foreground="@drawable/ripple_effect_fg"
         android:id="@+id/btn_dog_1"
         android:layout_width="@dimen/_80sdp"
         android:layout_height="@dimen/_80sdp"
@@ -45,6 +47,7 @@
         android:id="@+id/btn_dog_2"
         android:layout_width="@dimen/_80sdp"
         android:layout_height="@dimen/_80sdp"
+        android:foreground="@drawable/ripple_effect_fg"
         android:src="@drawable/ic_dog_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/btn_dog_1"
@@ -55,6 +58,7 @@
         android:id="@+id/btn_dog_record"
         android:layout_width="@dimen/_80sdp"
         android:layout_height="@dimen/_80sdp"
+        android:foreground="@drawable/ripple_effect_fg"
         android:src="@drawable/ic_record"
         app:layout_constraintEnd_toStartOf="@id/btn_dog_share"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,6 +69,7 @@
         android:layout_width="@dimen/_80sdp"
         android:layout_height="@dimen/_80sdp"
         android:src="@drawable/ic_share"
+        android:foreground="@drawable/ripple_effect_fg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/btn_dog_record"
         app:layout_constraintTop_toTopOf="@id/btn_dog_record" />
